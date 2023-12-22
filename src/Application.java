@@ -1,8 +1,7 @@
 import com.gui.MainFrame;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.EventQueue;
 import java.io.IOException;
+import javax.swing.JOptionPane;
 
 public class Application {
     public static void main(String[] args) {

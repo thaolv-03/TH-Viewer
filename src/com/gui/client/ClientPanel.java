@@ -93,7 +93,7 @@ public class ClientPanel extends JPanel {
         // TODO: style connect_label
         this.connect_label.setIcon(new ImageIcon(this.getClass().getClassLoader().getResource("connect_icon.png")));
         this.connect_label.setText("Bắt đầu điều khiển");
-        this.connect_label.setBounds(100, 285, 300, 50);
+        this.connect_label.setBounds(100, 305, 300, 50);
         this.connect_label.setForeground(Color.decode(ClientPanel.FOREGROUND));
         this.connect_label.setFont(new Font("Tahoma", Font.BOLD, 16));
         this.connect_label.addMouseListener(new MouseAdapter() {
@@ -104,22 +104,22 @@ public class ClientPanel extends JPanel {
         });
         this.add(this.connect_label);
 
-//        // TODO: style low_radio
-//        this.low_radio.setText("Chất lượng thấp");
-//        this.low_radio.setBounds(45, 290, 150, 30);
-//        this.low_radio.setOpaque(false);
-//        this.low_radio.setSelected(true);
-//        this.low_radio.setFont(new Font("Inter", Font.PLAIN, 14));
-//        this.button_group.add(this.low_radio);
-//        this.add(this.low_radio);
-//
-//        // TODO: style high_radio
-//        this.high_radio.setText("Chất lượng cao");
-//        this.high_radio.setBounds(45, 310, 150, 30);
-//        this.high_radio.setOpaque(false);
-//        this.high_radio.setFont(new Font("Inter", Font.PLAIN, 14));
-//        this.button_group.add(this.high_radio);
-//        this.add(this.high_radio);
+        // TODO: style low_radio
+        this.low_radio.setText("Chất lượng thấp");
+        this.low_radio.setBounds(55, 270, 150, 30);
+        this.low_radio.setOpaque(false);
+        this.low_radio.setSelected(true);
+        this.low_radio.setFont(new Font("Tahoma", Font.BOLD, 14));
+        this.button_group.add(this.low_radio);
+        this.add(this.low_radio);
+
+        // TODO: style high_radio
+        this.high_radio.setText("Chất lượng cao");
+        this.high_radio.setBounds(195, 270, 150, 30);
+        this.high_radio.setOpaque(false);
+        this.high_radio.setFont(new Font("Tahoma", Font.BOLD, 14));
+        this.button_group.add(this.high_radio);
+        this.add(this.high_radio);
 
         // TODO: style loader_label
         this.loader_label.setIcon(new ImageIcon(this.getClass().getClassLoader().getResource("loader_icon.gif")));
